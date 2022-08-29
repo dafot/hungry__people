@@ -1,0 +1,19 @@
+
+/*GLOBAL*/
+
+html {
+    font-size: 10px;
+    @include bp(md) {
+        background-color: blue;
+    }
+
+    @include bp(lg){
+        background-color: green;
+    }
+}
+.container {
+    margin: 0 auto;
+    max-width: 1140px;
+    padding: 0 15px 0 15px;
+    border: 1px solid #ddd;
+}

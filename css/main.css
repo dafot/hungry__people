@@ -1,0 +1,178 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+/*===============mixins================*/
+/*===============fonts ================*/
+/*===============FONTS================*/
+/*===============FONTS================*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.col {
+  flex: 1 0 0%;
+}
+
+.col-1 {
+  flex: 0 0 auto;
+  width: calc(8.3333333333% - 30px);
+}
+
+.col-2 {
+  flex: 0 0 auto;
+  width: calc(16.6666666667% - 30px);
+}
+
+.col-3 {
+  flex: 0 0 auto;
+  width: calc(25% - 30px);
+}
+
+.col-4 {
+  flex: 0 0 auto;
+  width: calc(33.3333333333% - 30px);
+}
+
+.col-5 {
+  flex: 0 0 auto;
+  width: calc(41.6666666667% - 30px);
+}
+
+.col-6 {
+  flex: 0 0 auto;
+  width: calc(50% - 30px);
+}
+
+.col-7 {
+  flex: 0 0 auto;
+  width: calc(58.3333333333% - 30px);
+}
+
+.col-8 {
+  flex: 0 0 auto;
+  width: calc(66.6666666667% - 30px);
+}
+
+.col-9 {
+  flex: 0 0 auto;
+  width: calc(75% - 30px);
+}
+
+.col-10 {
+  flex: 0 0 auto;
+  width: calc(83.3333333333% - 30px);
+}
+
+.col-11 {
+  flex: 0 0 auto;
+  width: calc(91.6666666667% - 30px);
+}
+
+.col-12 {
+  flex: 0 0 auto;
+  width: calc(100% - 30px);
+}
+
+.block {
+  padding: 20px;
+  background-color: #ddd;
+  border: 1px solid #aaa;
+  text-align: center;
+  height: 100%;
+}
+
+/*GLOBAL*/
+html {
+  font-size: 10px;
+}
+@media (min-width: 768px) {
+  html {
+    background-color: blue;
+  }
+}
+@media (min-width: 992px) {
+  html {
+    background-color: green;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 0 15px 0 15px;
+  border: 1px solid #ddd;
+}/*# sourceMappingURL=main.css.map */
